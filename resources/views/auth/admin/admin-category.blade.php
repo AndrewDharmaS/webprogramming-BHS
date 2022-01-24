@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @push('css')
-<link rel="stylesheet" href="{{ asset('assets/css/auth/admin-category.css') }}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/auth/admin-category.css') }}">
 @endpush
 @section('content')
 <div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="modalConfirmDelete" aria-hidden="true">

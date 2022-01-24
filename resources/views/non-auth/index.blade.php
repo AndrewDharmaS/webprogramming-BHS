@@ -1,13 +1,13 @@
 @extends('layouts.main')
 @push('css')
-<link rel="stylesheet" href="{{ asset('assets/css/non-auth/index.css')}}">
-<link rel="stylesheet" href="{{ asset('assets/css/non-auth/card-product.css')}}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/non-auth/index.css')}}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/non-auth/card-product.css')}}">
 @endpush
 @section('content')
 <div class="content limiter">
     <div class="home row">
         {{-- <div class="banner col-12">
-            <img src="{{ asset('assets/images/main/welcome-banner.jpg') }}">
+            <img src="{{ secure_asset('assets/images/main/welcome-banner.jpg') }}">
         </div> --}}
         <div class="categories col-12">
             <div class="title">

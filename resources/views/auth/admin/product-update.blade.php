@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @push('css')
-<link rel="stylesheet" href="{{ asset('assets/css/auth/admin-product-update.css') }}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/auth/admin-product-update.css') }}">
 @endpush
 @section('content')
 <div class="content limiter">
@@ -18,7 +18,7 @@
                 @csrf
                 <div class="product-image">
                     <div class="image-container">
-                        <img src="{{ asset('assets/images/product/'.$product->image) }}" alt="{{ $product->image }}">
+                        <img src="{{ secure_asset('assets/images/product/'.$product->image) }}" alt="{{ $product->image }}">
                     </div>
                 </div>
                 <div class="input-container">

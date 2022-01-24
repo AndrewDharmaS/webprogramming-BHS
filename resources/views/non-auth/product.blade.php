@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @push('css')
-<link rel="stylesheet" href="{{ asset('assets/css/non-auth/product.css')}}">
-<link rel="stylesheet" href="{{ asset('assets/css/non-auth/card-product.css')}}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/non-auth/product.css')}}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/non-auth/card-product.css')}}">
 @endpush
 @section('content')
 <div class="modal" tabindex="-1" role="dialog" id="modalMessage">
@@ -26,7 +26,7 @@
             </div>
         @else
         <div class="image col-lg-4">
-            <img src="{{ asset('assets/images/product/'.$product->image)}}" alt="{{$product->image}}">
+            <img src="{{ secure_asset('assets/images/product/'.$product->image)}}" alt="{{$product->image}}">
         </div>
         <div class="detail col-lg-8">
             <div class="title">{{ $product->name }}</div>

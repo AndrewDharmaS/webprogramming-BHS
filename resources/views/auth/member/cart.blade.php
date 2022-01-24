@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @push('css')
-<link rel="stylesheet" href="{{ asset('assets/css/auth/cart.css') }}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/auth/cart.css') }}">
 @endpush
 @section('content')
 <div class="modal fade" id="modalConfirmClear" tabindex="-1" role="dialog" aria-labelledby="modalConfirmClear" aria-hidden="true">
@@ -63,7 +63,7 @@
                 <div class="product-pad col-12">
                     <div class="row product">
                         <div class="image col-xl-2 col-lg-2 col-md-3 col-sm-4 col-12">
-                            <img src="{{ asset('assets/images/product/'.$order->product->image)}}">
+                            <img src="{{ secure_asset('assets/images/product/'.$order->product->image)}}">
                         </div>
                         <div class="description col-xl-10 col-lg-10 col-md-9 col-sm-8 col-12">
                             <div class="name">

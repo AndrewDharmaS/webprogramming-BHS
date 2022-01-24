@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @push('css')
-<link rel="stylesheet" href="{{ asset('assets/css/auth/admin-transaction.css') }}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/auth/admin-transaction.css') }}">
 @endpush
 @section('content')
 <div class="content limiter">
@@ -48,7 +48,7 @@
                                     @if ($transaction->status == 'Pending' || $transaction->status == 'declined' || $transaction->status == 'canceled')
                                         <td class="proof">-</td>
                                     @else
-                                        <td class="proof"><a href="{{ asset('assets/images/transaction/'.$transaction->proof) }}" target="_blank">Lihat</a></td>
+                                        <td class="proof"><a href="{{ secure_asset('assets/images/transaction/'.$transaction->proof) }}" target="_blank">Lihat</a></td>
                                     @endif
                                 @endif
                                 @if ($transaction->status == 'accepted' || $transaction->status == 'canceled')

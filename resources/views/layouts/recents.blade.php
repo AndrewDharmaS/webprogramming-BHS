@@ -1,5 +1,5 @@
 @push('css')
-<link rel="stylesheet" href="{{ asset('assets/css/non-auth/recents.css')}}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/non-auth/recents.css')}}">
 @endpush
 <div class="recents">
     @if (!$products->isEmpty())

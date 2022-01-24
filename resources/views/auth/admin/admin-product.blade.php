@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @push('css')
-<link rel="stylesheet" href="{{ asset('assets/css/auth/admin-product.css') }}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/auth/admin-product.css') }}">
 @endpush
 @section('content')
 <div class="content limiter">
@@ -45,7 +45,7 @@
                             <td class="price">Rp{{ number_format($product->price, 0, ',', '.') }}</td>
                             <td class="description" style="white-space: pre-line">{{ $product->description }}</td>
                             <td><a href="{{ $product->link }}" target="_blank">Buka</a></td>
-                            <td><a href="{{ asset('/assets/images/product/'.$product->image)}}" target="_blank">Lihat</a></td>
+                            <td><a href="{{ secure_asset('/assets/images/product/'.$product->image)}}" target="_blank">Lihat</a></td>
                             <td class="remove"><a href="{{ route('product-delete', $product->id)}}" class="d-flex align-items-center">&#128473;</a></td>
                         </tr>
                     @endforeach

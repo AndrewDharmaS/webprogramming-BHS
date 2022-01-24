@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @push('css')
-<link rel="stylesheet" href="../assets/css/auth/login.css">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/auth/login.css') }}">
 @endpush
 @section('content')
 <div class="content">

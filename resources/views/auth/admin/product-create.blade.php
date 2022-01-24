@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @push('css')
-<link rel="stylesheet" href="{{ asset('assets/css/auth/admin-product-create.css') }}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/auth/admin-product-create.css') }}">
 @endpush
 @section('content')
 <div class="content limiter">

@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @push('css')
-<link rel="stylesheet" href="{{ asset('assets/css/non-auth/about.css')}}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/non-auth/about.css')}}">
 @endpush
 @section('content')
 <div class="content limiter">
@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="image col-lg-4">
-            <img src="{{ asset('assets/images/main/about-1.png') }}">
+            <img src="{{ secure_asset('assets/images/main/about-1.png') }}">
         </div>
     </div>
     <div class="row location part">

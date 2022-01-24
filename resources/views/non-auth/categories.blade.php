@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @push('css')
-<link rel="stylesheet" href="{{ asset('assets/css/non-auth/categories.css')}}">
-<link rel="stylesheet" href="{{ asset('assets/css/non-auth/card-product.css')}}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/non-auth/categories.css')}}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/non-auth/card-product.css')}}">
 @endpush
 @section('content')
 <div class="content limiter">
