@@ -1,0 +1,160 @@
+.content {
+    padding: 20px 150px;
+    background-color: var(--white-color);
+}
+.content .product {
+    padding: 35px 20px;
+    border-radius: 25px;
+    /* border: 1px solid var(--theme-color); */
+}
+.content > .product .image {
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+.content > .product .image > img {
+    width: 100%;
+    height: auto;
+    border-radius: inherit;
+}
+.content > .product .detail {
+    
+}
+.content .seperator {
+    width: 100%;
+    border-bottom: 0.01px solid var(--theme-color);
+    margin: 10px 0;
+}
+.content .product .detail > .title {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: justify;
+}
+.content .product .detail > .price {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
+.content .product .detail > .category {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+.content .product .description {
+    font-size: 16px;
+    text-align: justify;
+}
+.content .product .detail > .action {
+    
+}
+.content .product .detail > .action .quantity {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.content .product .detail > .action .quantity .amount {
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+}
+.content .product .detail > .action .quantity .amount button[type=button],
+.content .product .detail > .action .quantity .amount input[type=number] {
+    border: 1px solid var(--low-gray-color);
+    background-color: var(--white);
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.content .product .detail > .action .quantity .amount input[type=number] {
+    -moz-appearance: textfield;
+    width: 75px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 0;
+    border-right: 0;
+}
+
+.content .product .detail > .action .quantity .amount input::-webkit-outer-spin-button,
+.content .product .detail > .action .quantity .amount input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.content .product .detail > .action .quantity .amount button[type=button] {
+    width: 40px;
+    font-weight: 700;
+}
+.content .product .detail > .action .options {
+    margin-top: 20px;
+    display: flex;
+}
+.content .product .detail > .action .options input[type=submit],
+.content .product .detail > .action .options a {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 20px;
+    display: block;
+}
+.content .product .detail > .action .options input[type=submit]:first-child,
+.content .product .detail > .action .options a:first-child {
+    margin-left: 0;
+}
+.content .product .detail > .action .options input[type=submit]:last-child,
+.content .product .detail > .action .options a:last-child {
+    margin-right: 0;
+}
+.content .product .detail > .action .options .disabled {
+    filter: saturate(0);
+}
+.content .product .detail > .action .options .disabled:hover {
+    filter: saturate(0);
+}
+.content .product .detail > .action .link {
+    margin-top: 20px;
+    color: var(--tokopedia);
+}
+.content .product .description {
+    margin-top: 30px;
+}
+.content .product .description > .title {
+    font-size: 20px;
+    font-weight: 700;
+}
+#no-product {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: default;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--low-black-color);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 575.98px) { 
+
+}
+
+@media (max-width: 767.98px) { 
+
+}
+
+
+@media (max-width: 991.98px) { 
+    
+    .content .product .detail > .title {
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 1199.98px) { 
+
+}

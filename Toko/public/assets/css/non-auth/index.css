@@ -1,0 +1,122 @@
+.content {
+    padding: 20px 0;
+    background-color: var(--white-color);
+}
+.products > .product-pad {
+    padding: 20px;
+}
+.content .home {
+    
+}
+.content .home > .banner {
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.content .home > .banner > img {
+    width: 100%;
+    height: auto;
+}
+.content .home > .categories {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+    color: var(--low-black-color);
+}
+.content .home > .categories .title {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: default;
+    padding-bottom: 10px;
+}
+.content .home > .categories .category {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    
+}
+.content .home > .categories .category > a {
+    display: block;
+    position: relative;
+    font-size: 22px;
+    margin: 0 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 2px solid var(--low-black-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.30s;
+}
+.content .home > .categories .category > a:hover {
+    transition: all 0.15s;
+    color: var(--theme-color);
+}
+.content .home > .recommend {
+    margin: auto;
+    color: var(--low-black-color);
+}
+.content .home > .recommend .title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: default;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--low-black-color);
+    width: fit-content;
+    margin: auto;
+}
+.content .home > .recommend .products {
+    margin: auto;
+    padding-top: 10px;
+}
+.content .home > .recommend .others {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--low-black-color);
+    margin-top: 20px;
+}
+
+.content .home > .recommend .pagination-control {
+
+}
+.content .home > .recommend .others > a {
+    font-size: 22px;
+    margin: 0 15px;
+    padding-top: 10px;
+    width: fit-content;
+    border-top: 2px solid var(--low-black-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.30s;
+}
+.content .home > .recommend .others > a:hover {
+    transition: all 0.15s;
+    color: var(--theme-color);
+}
+
+@media (max-width: 575.98px) {
+    
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+}
+
+@media (min-width: 1200px) {
+
+}
+

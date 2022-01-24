@@ -1,0 +1,148 @@
+.content {
+    padding: 20px 0;
+    background-color: var(--white-color);
+}
+.products > .product-pad {
+    padding: 15px;
+}
+.content .home {
+    
+}
+.content .home > .banner {
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.content .home > .banner > img {
+    width: 100%;
+    height: auto;
+}
+.content .home > .categories {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+    color: var(--low-black-color);
+}
+.content .home > .categories .title {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: default;
+    padding-bottom: 10px;
+}
+.content .home > .categories .category {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    
+}
+.content .home > .categories .category > a {
+    display: block;
+    font-size: 22px;
+    margin: 0 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 2px solid var(--low-black-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.30s;
+}
+.content .home > .categories .category > a:hover {
+    transition: all 0.15s;
+    color: var(--theme-color);
+}
+.content .home > .recommend {
+    margin: auto;
+    color: var(--low-black-color);
+}
+.content .home > .recommend .title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: default;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--low-black-color);
+    width: fit-content;
+    margin: auto;
+}
+.content .home > .recommend .products {
+    margin: auto;
+    padding-top: 10px;
+}
+[role=navigation] {
+    cursor: default;
+    padding: 10px 0;
+    text-align: center;
+}
+[role=navigation] > div > a,
+[role=navigation] > div > span  {
+    display: none!important;
+}
+[role=navigation] [rel=next],
+[role=navigation] [rel=prev],
+[role=navigation] [aria-disabled=true] > span {
+    border: 0!important;
+}
+[role=navigation] [rel=next] svg,
+[role=navigation] [rel=prev] svg,
+[role=navigation] [aria-disabled=true] svg {
+    width: 1.5rem;
+}
+[role=navigation] [aria-current=page] > span,
+[role=navigation] [aria-current=page] ~ a,
+[role=navigation] [rel=prev] ~ a {
+    display: inline-block;
+    border: 0!important;
+    color: var(--low-black-color);
+    text-decoration: none!important;
+}
+[role=navigation] [aria-current=page] > span {
+    font-weight: 700;
+    color: var(--theme-color);
+    margin: 0!important;
+    border-bottom: 2px solid var(--theme-color)!important;
+}
+[role=navigation] [aria-current=page] ~ a:hover ,
+[role=navigation] [rel=prev] ~ a:hover {
+    border-bottom: 2px solid var(--low-black-color)!important;
+}
+[role=navigation] [aria-current=page] ~ a:last-child:hover,
+[role=navigation] [rel=prev] ~ a:last-child:hover {
+    border-bottom: 0!important;
+}
+[role=navigation] [rel=prev] {
+    color: var(--low-black-color);
+    text-decoration: none;
+}
+[role=navigation] [rel=prev]:hover,
+[role=navigation] [aria-current=page] ~ a:last-child:hover,
+[role=navigation] [rel=prev] ~ a:last-child:hover {
+    color: var(--theme-color);
+}
+[role=navigation] p {
+    padding: 10px 0;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+@media (max-width: 575.98px) {
+    
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+@media (min-width: 1200px) {
+
+}
+

@@ -1,0 +1,218 @@
+.content {
+    padding: 20px 0;
+    cursor: default;
+    background-color: var(--white-color);
+}
+.content .categories > .title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: default;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--low-black-color);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.content .categories thead tr {
+    
+    text-align: center;
+}
+.content .categories tbody tr {
+    text-align: center;
+}
+.content .categories .name {
+    text-align: left;
+    min-width: 100px;
+}
+
+[role=navigation] {
+    cursor: default;
+    padding: 10px 0;
+    text-align: center;
+}
+[role=navigation] > div > a,
+[role=navigation] > div > span  {
+    display: none!important;
+}
+[role=navigation] [rel=next],
+[role=navigation] [rel=prev],
+[role=navigation] [aria-disabled=true] > span {
+    border: 0!important;
+}
+[role=navigation] [rel=next] svg,
+[role=navigation] [rel=prev] svg,
+[role=navigation] [aria-disabled=true] svg {
+    width: 1.5rem;
+}
+[role=navigation] [aria-current=page] > span,
+[role=navigation] [aria-current=page] ~ a,
+[role=navigation] [rel=prev] ~ a {
+    display: inline-block;
+    border: 0!important;
+    color: var(--low-black-color);
+    text-decoration: none!important;
+}
+[role=navigation] [aria-current=page] > span {
+    font-weight: 700;
+    color: var(--theme-color);
+    margin: 0!important;
+    border-bottom: 2px solid var(--theme-color)!important;
+}
+[role=navigation] [aria-current=page] ~ a:hover ,
+[role=navigation] [rel=prev] ~ a:hover {
+    border-bottom: 2px solid var(--low-black-color)!important;
+}
+[role=navigation] [aria-current=page] ~ a:last-child:hover,
+[role=navigation] [rel=prev] ~ a:last-child:hover {
+    border-bottom: 0!important;
+}
+[role=navigation] [rel=prev] {
+    color: var(--low-black-color);
+    text-decoration: none;
+}
+[role=navigation] [rel=prev]:hover,
+[role=navigation] [aria-current=page] ~ a:last-child:hover,
+[role=navigation] [rel=prev] ~ a:last-child:hover {
+    color: var(--theme-color);
+}
+[role=navigation] p {
+    padding: 10px 0;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.content .categories .update {
+    font-size: 20px;
+    color: var(--low-blue-color);
+}
+.content .categories .update > a { 
+    display: block;
+    text-decoration: none;
+}
+.content .categories .update a:hover {
+    color: var(--blue-color);
+}
+.content .categories .remove {
+    font-size: 20px;
+    color: var(--red-color);
+}
+.content .categories .remove > a { 
+    margin: auto;
+    width: fit-content;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+.content .categories .remove a:hover {
+    color: var(--low-red-color);
+}
+.content .categories .category-view .update-lead {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content .categories .control {
+    border-radius: 15px;
+    border: 2px solid var(--theme-color);
+    padding: 30px 15px;
+}
+.content .categories .control > .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: default;
+    width: fit-content;
+    margin: auto;
+}
+.content .categories .control > form {
+    margin: 16px auto;
+}
+.content .categories .control > form .input-container {
+    width: 100%;
+    margin-top: 16px;
+}
+.content .categories .control > form .input-container .fill {
+    width: 100%;
+}
+.content .categories .control > form .input-container label {
+    font-size: 18px;
+}
+.content .categories .control > form .input-container select,
+.content .categories .control > form .input-container input,
+.content .categories .control > form .input-container textarea {
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    width: 100%;
+    outline: var(--theme-color);
+    transition: all 0.3s;
+    height: auto;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--low-black-color);
+    background-color: #fff;
+    background-clip: padding-box;
+}
+.content .categories .control > form .input-container input::-webkit-outer-spin-button,
+.content .categories .control > form .input-container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.content .categories .control > form .input-container textarea {
+    resize: none;
+}
+.content .categories .control > form .input-container input:focus,
+.content .categories .control > form .input-container textarea:focus {
+    border: 1px solid var(--theme-color)!important;
+    box-shadow: none;
+    transition: all 0.15s;
+}
+.content .categories .control > form input[type=submit] {
+    margin-top: 32px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: var(--white-color);;
+    background-color: var(--theme-color);
+    border: 1px solid var(--theme-color);
+    width: 100%;
+    transition: all 0.3s;
+}
+.content .categories .control > form input[type=submit]:hover {
+    filter: brightness(1.1);
+}
+
+@media (max-width: 575.98px) {
+    
+    .content .categories > .row {
+        flex-direction: column-reverse;
+    }
+    .content .categories > .row > .control {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 765.98px) {
+
+    .content .categories > .row {
+        flex-direction: column-reverse;
+    }
+    .content .categories > .row > .control {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+@media (min-width: 1200px) {
+
+}

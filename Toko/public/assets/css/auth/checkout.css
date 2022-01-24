@@ -1,0 +1,157 @@
+.content {
+    padding: 20px 0;
+    background-color: var(--white-color);
+    cursor: default;
+}
+.content .checkout > .title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: default;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--low-black-color);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.content .checkout > .products {
+    cursor: default;
+}
+.content .checkout > .products > .product-pad {
+    margin: 10px 0;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.05);
+}
+.content .checkout > .products > .product-pad .product {
+    padding: 20px 10px;
+}
+.content .checkout > .products > .product-pad .product > .image {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+.content .checkout > .products > .product-pad .product > .image > img {
+    width: 100%;
+    height: auto;
+    border-radius: inherit;
+}
+.content .checkout > .products > .product-pad .product > .description {
+    align-items: center;
+    vertical-align: middle;
+    align-self: center;
+}
+.content .checkout > .products > .product-pad .product > .description .name {
+    font-weight: 500;
+}
+.content .checkout > .products > .product-pad .product > .description .price {
+    font-weight: 700;
+}
+.content .checkout > .products > .product-pad .product > .description .subtotal {
+    font-weight: 700;
+}
+.content .checkout > .products > .product-pad .product > .description .subtotal span {
+    float: right;
+}
+.content .checkout > .products > .product-pad .product > .description .quantity {
+    font-size: 16px;
+}
+
+.content .checkout > .summary {
+    cursor: default;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.05);
+}
+.content .checkout > .summary > .title {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.content .checkout > .summary > .detail .item {
+    text-align: justify;
+}
+.content .checkout > .summary > .detail .item > .subtotal {
+    float: right;
+}
+.content .checkout > .summary > .detail .total {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+}
+.content .checkout > .summary > .detail .total > span {
+    float: right;
+}
+.content .checkout > .summary > .action {
+    margin-top: 20px;
+}
+.content .checkout > .summary > .action .act-pad input,
+.content .checkout > .summary > .action .act-pad select  {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid var(--theme-color);
+    color: var(--theme-color);
+    outline: var(--theme-color);
+    text-align: center;
+}
+.content .checkout > .summary > .action .act-pad select option  {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    width: 100%;
+    color: var(--low-black-color);
+    outline: var(--theme-color);
+    text-align: center;
+}
+.content .checkout > .summary > .action .act-pad select:hover {
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+.content .checkout > .summary > .action .act-pad input:hover {
+    filter: brightness(1.1);
+}
+.content #checkout {
+    color: var(--white-color);
+    background-color: var(--theme-color);
+}
+.content #clear {
+    color: var(--white-color);
+    background-color: var(--low-gray-color);
+}
+
+@media (max-width: 575.98px) {
+    
+    .content .checkout > .summary > .detail .total {
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .content > .checkout {
+        padding: 10px;
+    }
+    .content .checkout > .summary {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+@media (min-width: 1200px) {
+
+}
+

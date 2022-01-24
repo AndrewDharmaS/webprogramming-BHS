@@ -1,0 +1,101 @@
+.content {
+    align-items: center;
+    background-color: var(--theme-color);
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.content > .center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.content > .center > .title {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--white-color);;
+    padding: 20px 0;
+    width: 100%;
+}
+.content > .center > .login {
+    margin: auto;
+    border-radius: 15px;
+    padding: 32px;
+    width: 100%;
+    max-width: 400px;
+    background-color: var(--white-color);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+    cursor: default;
+}
+.content > .center > .login > .title {
+    color: var(--black-color);;
+    font-size: 22px;
+    margin-top: 24px;
+}
+.content > .center > .login > .title > a {
+    font-size: 16px;
+    float: right;
+    text-decoration: none;
+    color: var(--theme-color);
+    line-height: 2em;
+    display: block;
+}
+.content > .center > .login > .title > a:hover {
+    filter: brightness(0.9);
+}
+.content > .center > .login > form {
+    margin-top: 32px;
+}
+.content > .center > .login > form .input-container {
+    width: 100%;
+    margin-top: 16px;
+}
+.content > .center > .login > form .input-container .fill {
+    width: 100%;
+}
+.content > .center > .login > form .input-container label {
+    font-size: 18px;
+}
+.content > .center > .login > form .input-container input {
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    width: 100%;
+    outline: var(--theme-color);
+    transition: all 0.3s;
+    height: auto;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--low-black-color);
+    background-color: #fff;
+    background-clip: padding-box;
+}
+.content > .center > .login > form .input-container input:focus {
+    border: 1px solid var(--theme-color)!important;
+    box-shadow: none;
+    transition: all 0.15s;
+}
+.content > .center > .login > form input[type=submit] {
+    margin-top: 16px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: var(--white-color);;
+    background-color: var(--theme-color);
+    border: 1px solid var(--theme-color);
+    width: 100%;
+    transition: all 0.3s;
+}
+.content > .center > .login > form .remember-me {
+    margin-top: 16px;
+    line-height: 1.25em;
+}

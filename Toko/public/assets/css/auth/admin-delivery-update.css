@@ -1,0 +1,90 @@
+.content {
+    padding: 20px 0;
+    cursor: default;
+    background-color: var(--white-color);
+}
+.content .deliveries > .title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: default;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--low-black-color);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.content .deliveries .control {
+    border-radius: 15px;
+    margin: auto;
+    border: 2px solid var(--theme-color);
+    padding: 30px 15px;
+}
+.content .deliveries .control > .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: default;
+    width: fit-content;
+    margin: auto;
+}
+.content .deliveries .control > form {
+    margin: 16px auto;
+}
+.content .deliveries .control > form .input-container {
+    width: 100%;
+    margin-top: 16px;
+}
+.content .deliveries .control > form .input-container .fill {
+    width: 100%;
+}
+.content .deliveries .control > form .input-container label {
+    font-size: 18px;
+}
+.content .deliveries .control > form .input-container select,
+.content .deliveries .control > form .input-container input,
+.content .deliveries .control > form .input-container textarea {
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    width: 100%;
+    outline: var(--theme-color);
+    transition: all 0.3s;
+    height: auto;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--low-black-color);
+    background-color: #fff;
+    background-clip: padding-box;
+}
+.content .deliveries .control > form .input-container input::-webkit-outer-spin-button,
+.content .deliveries .control > form .input-container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.content .deliveries .control > form .input-container textarea {
+    resize: none;
+}
+.content .deliveries .control > form .input-container input:focus,
+.content .deliveries .control > form .input-container textarea:focus {
+    border: 1px solid var(--theme-color)!important;
+    box-shadow: none;
+    transition: all 0.15s;
+}
+.content .deliveries .control > form input[type=submit] {
+    margin-top: 32px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: var(--white-color);;
+    background-color: var(--theme-color);
+    border: 1px solid var(--theme-color);
+    width: 100%;
+    transition: all 0.3s;
+}
+.content .deliveries .control > form input[type=submit]:hover {
+    filter: brightness(1.1);
+}

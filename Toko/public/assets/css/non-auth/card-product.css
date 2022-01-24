@@ -1,0 +1,40 @@
+
+.products > .product-pad a {
+    display: block;
+    text-decoration: none;
+    height: 100%;
+}
+.products > .product-pad .product {
+    padding: 0;
+    border-radius: 25px;
+    height: 100%;
+    box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.1);
+    transition: all 0.2s;
+}
+.products > .product-pad .product:hover {
+    transition: all 0.2s;
+    transform: scale(1.05);
+}
+.products > .product-pad .product > .image {
+    width: 100%;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+}
+.products > .product-pad .product > .image > img{
+    width: 100%;
+    height: auto;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+}
+.products > .product-pad .product > .description {
+    padding: 10px 15px;
+}
+.products > .product-pad .product > .description .name {
+    
+}
+.products > .product-pad .product > .description .category {
+    font-size: 12px;
+}
+.products > .product-pad .product > .description .price {
+    font-weight: 700;
+}

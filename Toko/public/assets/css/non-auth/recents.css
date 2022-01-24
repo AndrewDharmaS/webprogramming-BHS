@@ -1,0 +1,40 @@
+.recents {
+    padding: 0 20px 20px 20px;
+}
+.recents > .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: default;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--low-black-color);
+    width: fit-content;
+    margin: auto;
+}
+.recents > .products {
+    margin-top: 25px;
+}
+
+@media (max-width: 575.98px) { 
+
+}
+
+
+@media (max-width: 767.98px) { 
+
+}
+
+
+@media (max-width: 991.98px) { 
+    
+    .products > .product-pad {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+
+@media (max-width: 1199.98px) { 
+
+}
