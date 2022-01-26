@@ -1,7 +1,7 @@
 <a href="{{ route('product-view', ['id' => $product->id])}}">
     <div class="product">
         <div class="image">
-            <img src="{{ secure_asset('assets/images/product/'.$product->image) }}" alt="{{ $product->image }}">
+            <img src="{{ asset('assets/images/product/'.$product->image) }}" alt="{{ $product->image }}">
         </div>
         <div class="description">
             <div class="name">
